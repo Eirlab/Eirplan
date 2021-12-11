@@ -1,6 +1,6 @@
 <html>
-  <head>
-  	<style type="text/css">
+<head>
+	<style type="text/css">
 		@font-face {
 			font-family: 'Calibri';
 			font-style: normal;
@@ -9,12 +9,16 @@
 			unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 		}
 
-		.location-eirlab:hover, .location-eirlab:hover *  {
-			filter: brightness(1) drop-shadow(0 3px 10px rgb(0 0 0 / 0.1));
+		.shadow {
+			filter: drop-shadow(2px -2px 2px rgb(0 0 0 / 0.6));
 		}
 
-		h1, h2 {
-			font-family: Calibri;
+		.shadow-90 {
+			filter: drop-shadow(2px 2px 2px rgb(0 0 0 / 0.6));
+		}
+
+		.shadow-lights {
+			filter: drop-shadow(200px -200px 200px rgb(0 0 0 / 0.4))
 		}
 
 		.noms-lieux {
@@ -28,251 +32,305 @@
 			stroke-width:.264583;
 		}
 
+		.onoff {
+			right: 0;
+			position: absolute;
+		}
 	</style>
-  </head>
-  <body>
-	<svg id="plan" version="1.1" viewBox="0 0 1180.42 603" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-		<metadata>
-			<rdf:RDF>
-				<cc:Work rdf:about="">
-					<dc:format>image/svg+xml</dc:format>
-					<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-				</cc:Work>
-			</rdf:RDF>
-		</metadata>
-		<g transform="translate(149.283 208.691)">
-			
-			<g id="Ateliers">
-				<a class="location-eirlab" href="#ateliers">
-				<title>Ateliers Meca et Elec</title>
-				<rect transform="rotate(-90)" x="-8.94776" y="226.236" width="32.76" height="69.16" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="142.537" y="262.403" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="142.537" y="230.108" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="84.7622" y="262.403" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="84.7622" y="230.108" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="26.9873" y="262.403" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="142.537" y="119.217" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="87.9372" y="119.217" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="33.3372" y="119.217" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="26.9873" y="230.108" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<rect transform="rotate(-90)" x="-24.4377" y="119.217" width="54.6" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#f29400"/>
-				<text x="152.864" y="-74.117073" class="noms-lieux" style="fill:#f29400;" xml:space="preserve">
-					<tspan x="152.864" y="-74.117073">Ateliers</tspan>
-				</text>
-				</a>
-			</g>
+</head>
+<body>
+<svg id="plan" width="100%" height="100%" version="1.1" viewBox="0 0 603.033 1162.05" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+	<metadata>
+		<rdf:RDF>
+			<cc:Work rdf:about="">
+				<dc:format>image/svg+xml</dc:format>
+				<dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+			</cc:Work>
+		</rdf:RDF>
+	</metadata>
+	<g id="Ateliers" transform="rotate(90,131.84,262.5)">
+		<title>Ateliers Meca et Elec</title>
+		<g fill="#fff" stroke="#fbdeb2" stroke-width="2px">
+			<rect transform="rotate(-90)" x="-8.94776" y="226.236" width="32.76" height="69.16"/>
+			<rect transform="rotate(-90)" x="142.537" y="262.403" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="142.537" y="230.108" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="84.7622" y="262.403" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="84.7622" y="230.108" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="26.9873" y="262.403" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="142.537" y="119.217" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="87.9372" y="119.217" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="33.3372" y="119.217" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="26.9873" y="230.108" width="54.6" height="29.12"/>
+			<rect transform="rotate(-90)" x="-24.4377" y="119.217" width="54.6" height="29.12"/>
+		</g>
+		<text class="noms-lieux" transform="rotate(-90)" x="38.954704" y="210.50366" style="fill:#f29400" xml:space="preserve">
+			<tspan x="38.954704" y="210.50366">Ateliers</tspan>
+		</text>
+	</g>
 
-			<g id="Armoires-bureatique">
-				<a class="location-eirlab" href="#armoires-bureatique">
-				<title>Armoires de rangement pour la bureautique et materiel electronique</title>
-				<rect transform="rotate(-90)"  x="134.864" y="399.776" width="65.1185" height="43.68" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect transform="rotate(-90)" x="66.5709" y="399.776" width="65.1185" height="43.68" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				</a>
-			</g>
+	<g id="Armoires" transform="rotate(90,131.84,262.5)">
+		<title>Armoires de rangement pour la bureautique et materiel electronique</title>
+		<rect transform="rotate(-90)" x="134.864" y="399.776" width="65.1185" height="43.68" fill="#fff" stroke="#666" stroke-width="2px"/>
+		<rect transform="rotate(-90)" x="66.5709" y="399.776" width="65.1185" height="43.68" fill="#fff" stroke="#666" stroke-width="2px"/>
+	</g>
 
-			<g id="Espace-cours-2">
-				<a class="location-eirlab" href="#espace-cours-2">
-				<title>Espace de cours 2</title>
-				<rect transform="rotate(-90)" x=".173496" y="600.231" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x="-65.5506" y="600.231" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x="-65.5506" y="542.985" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x=".173496" y="542.985" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x="-65.5506" y="657.477" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x=".173496" y="657.477" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x="71.2479" y="600.231" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x="71.2479" y="542.985" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<rect transform="rotate(-90)" x="71.2479" y="657.477" width="29.12" height="54.6" fill="#fff" opacity=".2" stroke-width="3px" stroke="#e2007a"/>
-				<text x="518.90918" y="-21.776066" class="noms-lieux" style="fill:#e2007a;" xml:space="preserve">
-					<tspan x="518.90918" y="-21.776066">Espace Cours 2</tspan>
-				</text>
-				</a>
-			</g>
+	<g id="Espace-cours-2" transform="rotate(90,131.84,262.5)">
+		<a href="http://cours.eirlab.net" target="_blank">
+		<title>Espace de cours 2</title>
+		<g fill="#fff" stroke="#f6b2d7" stroke-width="2px">
+			<rect class="shadow" transform="rotate(-90)" x=".173496" y="600.231" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="-65.5506" y="600.231" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="-65.5506" y="542.985" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x=".173496" y="542.985" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="-65.5506" y="657.477" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x=".173496" y="657.477" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="71.2479" y="600.231" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="71.2479" y="542.985" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="71.2479" y="657.477" width="29.12" height="54.6"/>
+		</g>
+		</a>
+		<text class="noms-lieux" transform="rotate(-90)" x="-87.716248" y="638.20825" style="fill:#e2007a" xml:space="preserve">
+			<tspan x="-87.716248" y="638.20825">Espace Cours 2</tspan>
+		</text>
+	</g>
 
-			<g id="Robots">
-				<a class="location-eirlab" href="#robots">
-				<title>Coin de l'option Robotique</title>
-				<rect x="862.377" y="-203.215" width="29.12" height="62.9503" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect x="862.377" y="-136.604" width="29.12" height="62.9503" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect x="862.377" y="-69.9931" width="29.12" height="62.9503" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect transform="rotate(90)" x="-4.30233" y="-999.363" width="24.1802" height="54.6" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect transform="scale(-1)" x="-1025.68" y="7.72005" width="24.1802" height="44.8971" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect transform="scale(-1)" x="-1025.68" y="55.8512" width="24.1802" height="44.8971" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect transform="scale(-1)" x="-1025.68" y="103.982" width="24.1802" height="44.8971" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<rect transform="rotate(90)" x="-203.215" y="-977.977" width="29.12" height="83.3053" fill="#fff" opacity=".6" stroke-width="3px" stroke="#000"/>
-				<text x="896.88599" y="-79.956505" class="noms-lieux" style="fill:#000;" xml:space="preserve">
-					<tspan x="896.88599" y="-79.956505">Robots</tspan>
-				</text>
-				</a>
-			</g>
+	<g id="Robots" transform="rotate(90,131.84,262.5)">
+		<title>Coin de l'option Robotique</title>
+		<g fill="#fff" stroke="#666" stroke-width="2px">
+			<rect x="862.377" y="-203.215" width="29.12" height="62.9503"/>
+			<rect x="862.377" y="-136.604" width="29.12" height="62.9503"/>
+			<rect x="862.377" y="-69.9931" width="29.12" height="62.9503"/>
+			<rect transform="rotate(90)" x="-4.30233" y="-999.363" width="24.1802" height="54.6"/>
+			<rect transform="scale(-1)" x="-1025.68" y="7.72005" width="24.1802" height="44.8971"/>
+			<rect transform="scale(-1)" x="-1025.68" y="55.8512" width="24.1802" height="44.8971"/>
+			<rect transform="scale(-1)" x="-1025.68" y="103.982" width="24.1802" height="44.8971"/>
+			<rect transform="rotate(90)" x="-203.215" y="-977.977" width="29.12" height="83.3053"/>
+		</g>
+		<text class="noms-lieux" transform="rotate(-90)" x="39.872791" y="957.79041" style="fill:#000000" xml:space="preserve">
+			<tspan x="39.872791" y="957.79041">Robots</tspan>
+		</text>
+	</g>
 
-			<g id="Prototypage">
-				<a class="location-eirlab" href="#prototypage">
-				<title>Salle de prototypage</title>
-				<rect x="-129.16" y="143.59" width="248.34" height="249.25" stroke-width="3px" fill="none" stroke="#c40e0e"/>
-				<g opacity=".2" stroke-width="3px" fill="#fff" stroke="#c40e0e">
-				<a href="https://www.eirlab.net/decoupe-laser" target="_blank"><rect x="-22.205" y="356.18" width="51.108" height="32.76"><title>Decoupeuse laser</title></rect></a>
-				<rect x="-89.599" y="373.78" width="57.75" height="15.152"/>
-				<a href="https://www.eirlab.net/imprimantes-3d/" target="_blank"><rect x="83.682" y="177.14" width="31.38" height="128.22"><title>Imprimantes 3D</title></rect></a>
-				<a href="https://www.eirlab.net/fraiseuse-cnc-wabeco/" target="_blank"><rect x="-124.5" y="262.33" width="40.474" height="53.966"><title>CNC Wabeco</title></rect></a>
-				<rect x="-124.7" y="170.98" width="32.604" height="49.592"><title>Tour</title></rect>
-				<rect x="-124.93" y="224.43" width="33.049" height="33.256"/>
-				</g>
-				<text x="-93.483536" y="276.21445" class="noms-lieux" style="fill:#c40e0e;" xml:space="preserve">
-					<tspan x="-93.483536" y="276.21445">Prototypage</tspan>
-				</text>
-				</a>
-			</g>
+	<g id="Prototypage" transform="rotate(90,131.84,262.5)">
+		<title>Salle de prototypage</title>
+		<rect x="-129.16" y="143.59" width="248.34" height="249.25" fill="none" stroke="#000" stroke-width="3px"/>
+		<g fill="#fff" stroke="#edb6b6" stroke-width="2px">
+			<a href="https://www.eirlab.net/decoupe-laser" target="_blank"><rect class="shadow" x="-22.205" y="356.18" width="51.108" height="32.76" fill="#fff"><title>Decoupeuse laser</title></rect></a>
+			<rect x="-89.599" y="373.78" width="57.75" height="15.152"/>
+			<a href="https://www.eirlab.net/imprimantes-3d/" target="_blank"><rect class="shadow" x="83.682" y="177.14" width="31.38" height="128.22" fill="#fff"><title>Imprimantes 3D</title></rect></a>
+			<a href="https://www.eirlab.net/fraiseuse-cnc-wabeco/" target="_blank"><rect class="shadow" x="-124.5" y="262.33" width="40.474" height="53.966" fill="#fff"><title>CNC Wabeco</title></rect></a>
+			<rect x="-124.7" y="170.98" width="32.604" height="49.592"><title>Tour</title></rect>
+			<rect x="-124.93" y="224.43" width="33.049" height="33.256"/>
+		</g>
+		<text class="noms-lieux" transform="rotate(-90)" x="-343.31467" y="3.9763162" style="fill:#c40e0e" xml:space="preserve">
+			<tspan x="-343.31467" y="3.9763162">Prototypage</tspan>
+		</text>
+	</g>
 
-			<g id="Permanents">
-				<a class="location-eirlab" href="#permanents">
-				<title>Bureaux des permanents</title>
-				<!-- Les bureaux sont tries de haut en bas, de gauche à droite -->
-				<rect transform="rotate(-90)" x="-266.8" y="283.123" width="32.76" height="69.16" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"><title>Materiel Elec, Arduino & Raspberry</title></rect>
+	<g id="Permanents" transform="rotate(90,131.84,262.5)">
+		<title>Bureaux des permanents</title>
 
-				<g><a href="https://www.eirlab.net/author/jallali/" target="_blank"><title>Julien</title><rect transform="rotate(-90)" x="-345.116" y="291.763" width="56.1402" height="27.0202" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/></a></g>
+		<a href="https://www.eirlab.net/author/jallali/" target="_blank">
+			<title>Julien</title><rect class="shadow-90" transform="rotate(-90)" x="-345.116" y="291.763" width="56.1402" height="27.0202" fill="#fff" stroke="#c3e5f4" stroke-width="2px"/></a>
 
-				<rect transform="rotate(-90)" x="-369.217" y="323.104" width="53.127" height=".926986" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/>
-				<rect transform="rotate(-90)" x="-313.554" y="323.515" width="43.68" height="29.12" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/>
-				<rect transform="rotate(-90)" x="-263.579" y="387.694" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/>
-				<rect transform="rotate(-90)" x="-317.714" y="387.694" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/>
-				<rect transform="rotate(-90)" x="-371.849" y="387.694" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/>
-				<rect transform="rotate(-90)" x="-263.579" y="427.27" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/>
-				<rect transform="rotate(-90)" x="-317.714" y="427.27" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"><title>Ricardo</title></rect>
-				<rect transform="rotate(-90)" x="-371.849" y="427.27" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"><title>Hugo</title></rect>
-				<g><a href="https://www.eirlab.net/author/eschmitz/" target="_blank"><title>Etienne</title><rect transform="rotate(-90)" x="-263.579" y="523.995" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/></a></g>
-				<g><a href="https://www.eirlab.net/author/mduclusaud/" target="_blank"><title>Marc</title><rect transform="rotate(-90)" x="-317.714" y="523.995" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/></a></g>
-				<g><a href="https://www.eirlab.net/author/ymollard/" target="_blank"><title>Yoan</title><rect transform="rotate(-90)" x="-371.849" y="523.995" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/></a></g>
-				<rect transform="rotate(-90)" x="-263.579" y="563.57" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"><title>Clement</title></rect>
-				<g><a href="https://www.eirlab.net/author/apringalle/" target="_blank"><title>Antoine</title><rect transform="rotate(-90)" x="-317.714" y="563.57" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/></a></g>
-				<g><a href="https://www.eirlab.net/author/sedelpeuch/" target="_blank"><title>Seb</title><rect transform="rotate(-90)" x="-371.849" y="563.57" width="50.96" height="36.4" fill="#fff" opacity=".2" stroke-width="3px" stroke="#39a9dc"/></a></g>
-				<text x="352.7663" y="304.7222" class="noms-lieux" style="fill:#39a9dc;" xml:space="preserve">
-					<tspan x="352.7663" y="304.7222">Permanents</tspan>
-				</text>
-				</a>
-			</g>
+		<rect transform="rotate(-90)" x="-266.8" y="283.123" width="32.76" height="69.16" fill="#fff" stroke="#c3e5f4" stroke-width="2px"><title>Materiel Elec, Arduino et Raspberry</title></rect>
 
-			<g id="Espace-cours-1">
-				<a class="location-eirlab" href="#espace-cours-1">
-				<title>Espace de cours 1</title>
-				<rect transform="rotate(-90)" x="-264.62" y="693.801" width="29.12" height="54.6" fill="#fff" opacity=".3" stroke-width="3px" stroke="#97be0d"/>
-				<rect transform="rotate(-90)" x="-344.632" y="693.801" width="29.12" height="54.6" fill="#fff" opacity=".3" stroke-width="3px" stroke="#97be0d"/>
-				<rect transform="rotate(-90)" x="-344.632" y="751.576" width="29.12" height="54.6" fill="#fff" opacity=".3" stroke-width="3px" stroke="#97be0d"/>
-				<rect transform="rotate(-90)" x="-264.62" y="751.576" width="29.12" height="54.6" fill="#fff" opacity=".3" stroke-width="3px" stroke="#97be0d"/>
-				<text x="636.81537" y="297.91443" class="noms-lieux" style="fill:#97be0d;" xml:space="preserve">
-					<tspan x="636.81537" y="297.91443">Espace Cours 1</tspan>
-				</text>
-				</a>
-			</g>
-
-			<g id="Detente">
-				<a class="location-eirlab" href="#detente">
-				<title>Espace detente</title>
-				<rect x="878.56" y="244.251" width="100.598" height="22.1862" fill="#fff" opacity=".6" stroke-width="3px" stroke="#e69595"/>
-				<rect x="996.378" y="270.022" width="26.8725" height="66.8112" fill="#fff" opacity=".6" stroke-width="3px" stroke="#e69595"/>
-				<rect transform="rotate(-55.3093)" x="255.474" y="1002.89" width="22.9107" height="49.1102" fill="#fff" opacity=".6" stroke-width="3px" stroke="#e69595"/>
-				<rect x="894.293" y="360.222" width="65.9518" height="27.1124" ry="13.5562" fill="#fff" opacity=".6" stroke-width="3px" stroke="#e69595"/>
-				<circle cx="962.101" cy="296.279" r="15.9346" fill="#fff" opacity=".6" stroke-width="3px" stroke="#e69595"/>
-				<text x="884.88568" y="320.8606" class="noms-lieux" style="fill:#e69595;" xml:space="preserve">
-					<tspan x="875.88568" y="335.8606">Detente</tspan>
-				</text>
-				</a>
-			</g>
-
-			<g id="Casiers">
-				<a class="location-eirlab" href="#casiers">
-				<title>Casiers</title>
-				<rect x="1006.93" y="171.636" width="19.232" height="33.7161" fill="#fff" opacity=".2" stroke-width="3px" stroke="#d20000"/>
-				<rect transform="rotate(90)" x="220.814" y="-969.508" width="19.232" height="33.7161" fill="#fff" opacity=".2" stroke-width="3px" stroke="#d20000"/>
-				<rect transform="rotate(90)" x="220.814" y="-932.616" width="19.232" height="33.7161" fill="#fff" opacity=".2" stroke-width="3px" stroke="#d20000"/>
-				<rect transform="rotate(90)" x="220.814" y="-895.725" width="19.232" height="33.7161" fill="#fff" opacity=".2" stroke-width="3px" stroke="#d20000"/>
-				<rect transform="rotate(69.5906)" x="545.841" y="-869.015" width="19.232" height="33.7161" fill="#fff" opacity=".2" stroke-width="3px" stroke="#d20000"/>
-				</a>
-			</g>
-
-			<!-- Vitrine -->
-			<rect transform="rotate(-90)" x="-310.077" y="119.155" width="91" height="18.2" fill="#fff" stroke-width="3px" opacity=".6" stroke="#000"><title>Vitrine</title></rect>
-
-			<!-- Poteaux -->
-			<rect transform="rotate(-90)" x="-137.305" y="859.401" width="10" height="10"/>
-			<rect transform="rotate(-90)" x="-137.305" y="709.431" width="10" height="10"/>
-			<rect transform="rotate(-90)" x="-136.06" y="408.247" width="10" height="10"/>
-			<rect transform="rotate(-90)" x="-134.815" y="257.032" width="10" height="10"/>
-			<rect transform="rotate(-90)" x="-137.305" y="559.461" width="10" height="10"/>
-
-			<!-- Contour EirLab -->
-			<path transform="matrix(.264583 0 0 .264583 -149.283 -208.691)" d="m1009.13 0v2279.05h5.6699 3445.04v-971.354h-11.3398v960.016h-3428.03v-2256.38h3428.03v1012.9h11.3398v-1024.24h-3450.71z" fill="#000" stroke-width="3px"/>
-
-			<!-- Portes -->
-			<rect transform="rotate(-90)" x="-120.413" y="116.473" width="71.7207" height="5.38962" fill="#fff"><title>Entree Ouest</title></rect>
-			<rect transform="rotate(-90)" x="-138" y="1026" width="76" height="5.38962" fill="#fff"><title>Entree Est</title></rect>
-			<rect transform="rotate(-90)" x="-386.978" y="116.268" width="71.7207" height="5.38962" fill="#fff"/>
+		<g fill="#fff" stroke="#c3e5f4" stroke-width="2px">
+			<rect transform="rotate(-90)" x="-369.217" y="323.104" width="53.127" height=".926986"/>
+			<rect transform="rotate(-90)" x="-313.554" y="323.515" width="43.68" height="29.12"/>
+			<rect transform="rotate(-90)" x="-263.579" y="387.694" width="50.96" height="36.4"/>
+			<rect transform="rotate(-90)" x="-317.714" y="387.694" width="50.96" height="36.4"/>
+			<rect transform="rotate(-90)" x="-371.849" y="387.694" width="50.96" height="36.4"/>
+			<rect transform="rotate(-90)" x="-263.579" y="427.27" width="50.96" height="36.4"/>
+			<rect transform="rotate(-90)" x="-371.849" y="427.27" width="50.96" height="36.4"><title>Hugo</title></rect>
+			<rect transform="rotate(-90)" x="-317.714" y="427.27" width="50.96" height="36.4"><title>Ricardo</title></rect>
 		</g>
 
-		<g id="Header">
-				<text x="19.459227" y="86.622726" font-size="40px" style="line-height:1.25" xml:space="preserve"><tspan x="19.459227" y="86.622726" font-family="Calibri">Plan interactif</tspan></text>
-				<a href="https://www.eirlab.net/" target="_blank">
-				<g id="logo-eirlab" transform="matrix(.49196 0 0 .49196 173.15 94.706)">
-				<text x="-203.30559" y="78.531914" fill="#000000" font-family="sans-serif" font-size="82.907px" stroke-width="2.0727" style="line-height:1.25" xml:space="preserve"><tspan x="-203.30559" y="78.531914" font-family="Calibri" stroke-width="2.0727">EirLab</tspan></text>
+		<a href="https://www.eirlab.net/author/ymollard/" target="_blank"><title>Yoan</title><rect class="shadow-90" transform="rotate(-90)" x="-371.849" y="523.995" width="50.96" height="36.4" fill="#fff" stroke="#c3e5f4" stroke-width="2px"/></a>
+
+		<a href="https://www.eirlab.net/author/mduclusaud/" target="_blank"><title>Marc</title><rect class="shadow-90" transform="rotate(-90)" x="-317.714" y="523.995" width="50.96" height="36.4" fill="#fff" stroke="#c3e5f4" stroke-width="2px"/></a>
+
+		<a href="https://www.eirlab.net/author/eschmitz/" target="_blank"><title>Etienne</title><rect class="shadow-90" transform="rotate(-90)" x="-263.579" y="523.995" width="50.96" height="36.4" fill="#fff" stroke="#c3e5f4" stroke-width="2px"/></a>
+
+		<a href="https://www.eirlab.net/author/sedelpeuch/" target="_blank"><title>Seb</title><rect class="shadow-90" transform="rotate(-90)" x="-371.849" y="563.57" width="50.96" height="36.4" fill="#fff" stroke="#c3e5f4" stroke-width="2px"/></a>
+
+		<a href="https://www.eirlab.net/author/apringalle/" target="_blank"><title>Antoine</title><rect class="shadow-90" transform="rotate(-90)" x="-317.714" y="563.57" width="50.96" height="36.4" fill="#fff" stroke="#c3e5f4" stroke-width="2px"/></a>
+
+		<rect transform="rotate(-90)" x="-263.579" y="563.57" width="50.96" height="36.4" fill="#fff" stroke="#c3e5f4" stroke-width="2px"><title>Clement</title></rect>
+
+		<text class="noms-lieux" transform="rotate(-90)" x="-378.75055" y="434.82291" style="fill:#39a9dc" xml:space="preserve">
+			<tspan x="-378.75055" y="434.82291">Permanents</tspan>
+		</text>
+	</g>
+
+	<g id="Espace-cours-1" transform="rotate(90,131.84,262.5)">
+		<title>Espace de cours 1</title>
+		<a href="http://formation.eirlab.net" target="_blank">
+		<g fill="#fff" stroke="#dfebb6" stroke-width="2px">
+			<rect class="shadow" transform="rotate(-90)" x="-264.62" y="693.801" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="-344.632" y="693.801" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="-344.632" y="751.576" width="29.12" height="54.6"/>
+			<rect class="shadow" transform="rotate(-90)" x="-264.62" y="751.576" width="29.12" height="54.6"/>
+		</g>
+		</a>
+		<text class="noms-lieux" transform="rotate(-90)" x="-378.05414" y="757.65039" style="fill:#97be0d" xml:space="preserve">
+			<tspan x="-378.05414" y="757.65039">Espace Cours 1</tspan>
+		</text>
+	</g>
+
+	<g id="Detente" transform="rotate(90,131.84,262.5)">
+		<title>Espace detente</title>
+		<g fill="#fff" stroke="#f5d4d4" stroke-width="2px">
+			<rect x="878.56" y="244.251" width="100.598" height="22.1862"/>
+			<rect x="996.378" y="270.022" width="26.8725" height="66.8112"/>
+			<rect transform="rotate(-55.3093)" x="255.474" y="1002.89" width="22.9107" height="49.1102"/>
+			<rect x="894.293" y="360.222" width="65.9518" height="27.1124" ry="13.5562"/>
+			<circle cx="962.101" cy="296.279" r="15.9346"/>
+		</g>
+		<text class="noms-lieux" transform="rotate(-90)" x="-364.12552" y="918.38757" style="fill:#e69595" xml:space="preserve">
+			<tspan x="-373.12552" y="933.38757">Detente</tspan>
+		</text>
+	</g>
+
+	<g id="Casiers" transform="rotate(90,131.84,262.5)">
+		<title>Casiers</title>
+		<g fill="#fff" stroke="#ffb2b2" stroke-width="2px">
+			<rect x="1006.93" y="171.636" width="19.232" height="33.7161"/>
+			<rect transform="rotate(90)" x="220.814" y="-969.508" width="19.232" height="33.7161"/>
+			<rect transform="rotate(90)" x="220.814" y="-932.616" width="19.232" height="33.7161"/>
+			<rect transform="rotate(90)" x="220.814" y="-895.725" width="19.232" height="33.7161"/>
+			<rect transform="rotate(69.5906)" x="545.841" y="-869.015" width="19.232" height="33.7161"/>
+		</g>
+	</g>
+
+	<!-- Vitrine -->
+	<rect x="84.263" y="249.815" width="91" height="18.2" fill="#fff" stroke="#666" stroke-width="2px"><title>Vitrine</title></rect>
+
+	<!-- Poteaux -->
+	<rect x="257.035" y="990.061" width="10" height="10"/>
+	<rect x="257.035" y="840.091" width="10" height="10"/>
+	<rect x="258.28" y="538.907" width="10" height="10"/>
+	<rect x="259.525" y="387.692" width="10" height="10"/>
+	<rect x="257.035" y="690.121" width="10" height="10"/>
+
+	<!-- Contour Eirlab -->
+	<path d="m603.031 248.376h-602.998v912.999h257.004v-3.0003h-254.004v-906.998h597v906.998h-267.996v3.0003h270.996v-912.999z"/>
+
+	<!-- Portes -->
+	<g fill="#fff">
+		<rect x="273.927" y="247.133" width="71.7207" height="5.38962"><title>Entree Ouest</title></rect>
+		<rect x="256.34" y="1156.66" width="76" height="5.38962"><title>Entree Est</title></rect>
+		<rect x="7.362" y="246.928" width="71.7207" height="5.38962"/>
+	</g>
+
+
+	<g id="Header" transform="matrix(.827341 0 0 .827341 251.61 -33.881)">
+		<text x="39.897404" y="88.625038" font-size="40px" style="line-height:1.25" xml:space="preserve">
+			<tspan x="39.897404" y="88.625038" font-family="Calibri">Plan interactif</tspan>
+		</text>
+		<!-- logo EirLab -->
+		<a transform="translate(202.648 -44.7183)" href="https://www.eirlab.net/" target="_blank">
+			<g id="logo-eirlab" style="filter:drop-shadow(2px 2px 2px rgb(0 0 0 / 0.3));" transform="matrix(.49196 0 0 .49196 173.15 94.706)">
+				<text x="-203.30559" y="78.531914" fill="#000000" font-family="sans-serif" font-size="82.907px" stroke-width="2.0727" style="line-height:1.25" xml:space="preserve">
+					<tspan x="-203.30559" y="78.531914" font-family="Calibri" stroke-width="2.0727">EirLab</tspan>
+				</text>
 				<g stroke-width=".26747">
-				<path d="m9.3602 46.178c-1.4285-0.2722-2.3504-1.0245-3.1074-2.5359-2.0427-4.0783 0.97795-13.289 5.7299-17.472 1.261-1.11 2.8013-1.7694 4.8839-2.0909 1.2501-0.19296 1.4613 0.11292 0.76469 1.1075-0.60836 0.86856-1.2328 3.328-1.2328 4.8557 0 1.0183 0.42183 2.6862 1.4747 5.831 2.0792 6.2103 2.1681 8.2956 0.38978 9.1422-1.6059 0.76448-7.1747 1.4913-8.9028 1.162z" fill="#97be0d"/>
-				<path d="m33.036 36.256c-1.2921-0.2234-4.2484-1.1646-5.7656-1.8356-2.6838-1.1869-5.9311-3.7514-7.057-5.5732-0.47485-0.76834-1.5242-4.6319-1.3121-4.831 0.05092-0.04778 0.65946 0.18823 1.3523 0.52453 1.8654 0.90546 3.7915 1.2951 5.381 1.0885 0.76083-0.09889 3.1887-0.78737 5.3954-1.53 4.8476-1.6314 7.3984-1.954 8.3454-1.0555 0.69682 0.66116 0.99524 1.6505 1.5814 5.2428 0.56864 3.4847 0.25777 5.315-1.132 6.6648-1.3265 1.2883-3.9582 1.794-6.7888 1.3046z" fill="#e2007a"/>
-				<path d="m-1.5397 24.63c-0.89111-0.38801-1.1555-0.8921-1.7097-3.259-0.83466-3.5654-0.94616-5.3003-0.45026-7.0062 0.77973-2.6822 2.4804-3.5493 6.5553-3.3423 2.1151 0.10744 3.0345 0.30647 5.2121 1.1285 4.2075 1.5882 7.5477 3.9 8.8417 6.1194 0.6843 1.1737 1.6692 4.6319 1.3967 4.9044-0.08782 0.08782-0.8558-0.18455-1.7066-0.60526-1.3785-0.68165-1.8236-0.7642-4.0879-0.7582-2.3669 0.0064-2.8158 0.10268-6.553 1.4076-3.9995 1.3965-6.4659 1.8606-7.4984 1.4111z" fill="#39a9dc"/>
-				<path d="m18.966 23.239c0-0.08469 0.30817-0.82777 0.68483-1.6512 1.4784-3.2322 1.379-4.8622-0.66504-10.906-1.3234-3.9128-1.6857-6.1878-1.191-7.4771 0.40778-1.0627 4.3659-2.1226 7.9917-2.1401 2.0554-0.00994 2.551 0.077785 3.3912 0.60028 1.5492 0.96335 2.2298 2.631 2.2064 5.4062-0.02392 2.831-0.59489 4.9509-2.2846 8.4826-1.6717 3.4938-4.103 6.1438-6.3889 6.9635-1.5582 0.55874-3.7446 0.98016-3.7446 0.72176z" fill="#f29400"/>
-				 </g>
-				 </g></a>
-				<text x="131.2258" y="167.96777" font-size="16.5px" font-family="Calibri" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="131.2258" y="167.96777" text-align="center">Cliquez sur une zone du FabLab</tspan><tspan x="131.2258" y="184.6344" text-align="center">pour obtenir des details. Survolez</tspan><tspan x="131.2258" y="201.30103" text-align="center">les zones pour un resume.</tspan></text>
-				<text x="131.2258" y="247.28253" font-size="16.5px" font-family="Calibri" text-anchor="middle" style="line-height:1.25" xml:space="preserve"><tspan x="131.2258" y="247.28253" text-align="center">Cliquez sur le bouton ci-dessous pour</tspan><tspan x="131.2258" y="263.94916" text-align="center">faire apparaitre les objets IoT sur le</tspan><tspan x="131.2258" y="280.61578" text-align="center">plan. Survolez-les pour lire leurs IDs.</tspan></text>
-				<g onclick="toggleLights();">
-					<title>Afficher/Cacher les objets IoT d'EirLab</title>
-					<text x="81.635208" y="327.55646" font-size="40px" style="line-height:1.25" xml:space="preserve"><tspan x="81.635208" y="327.55646" font-family="Calibri">IoT</tspan></text>
-					<g id="iot" transform="matrix(.0042698 0 0 -.0042698 134.46 313.54)"></g>
+					<path d="m9.3602 46.178c-1.4285-0.2722-2.3504-1.0245-3.1074-2.5359-2.0427-4.0783 0.97795-13.289 5.7299-17.472 1.261-1.11 2.8013-1.7694 4.8839-2.0909 1.2501-0.19296 1.4613 0.11292 0.76469 1.1075-0.60836 0.86856-1.2328 3.328-1.2328 4.8557 0 1.0183 0.42183 2.6862 1.4747 5.831 2.0792 6.2103 2.1681 8.2956 0.38978 9.1422-1.6059 0.76448-7.1747 1.4913-8.9028 1.162z" fill="#97be0d"/>
+					<path d="m33.036 36.256c-1.2921-0.2234-4.2484-1.1646-5.7656-1.8356-2.6838-1.1869-5.9311-3.7514-7.057-5.5732-0.47485-0.76834-1.5242-4.6319-1.3121-4.831 0.05092-0.04778 0.65946 0.18823 1.3523 0.52453 1.8654 0.90546 3.7915 1.2951 5.381 1.0885 0.76083-0.09889 3.1887-0.78737 5.3954-1.53 4.8476-1.6314 7.3984-1.954 8.3454-1.0555 0.69682 0.66116 0.99524 1.6505 1.5814 5.2428 0.56864 3.4847 0.25777 5.315-1.132 6.6648-1.3265 1.2883-3.9582 1.794-6.7888 1.3046z" fill="#e2007a"/>
+					<path d="m-1.5397 24.63c-0.89111-0.38801-1.1555-0.8921-1.7097-3.259-0.83466-3.5654-0.94616-5.3003-0.45026-7.0062 0.77973-2.6822 2.4804-3.5493 6.5553-3.3423 2.1151 0.10744 3.0345 0.30647 5.2121 1.1285 4.2075 1.5882 7.5477 3.9 8.8417 6.1194 0.6843 1.1737 1.6692 4.6319 1.3967 4.9044-0.08782 0.08782-0.8558-0.18455-1.7066-0.60526-1.3785-0.68165-1.8236-0.7642-4.0879-0.7582-2.3669 0.0064-2.8158 0.10268-6.553 1.4076-3.9995 1.3965-6.4659 1.8606-7.4984 1.4111z" fill="#39a9dc"/>
+					<path d="m18.966 23.239c0-0.08469 0.30817-0.82777 0.68483-1.6512 1.4784-3.2322 1.379-4.8622-0.66504-10.906-1.3234-3.9128-1.6857-6.1878-1.191-7.4771 0.40778-1.0627 4.3659-2.1226 7.9917-2.1401 2.0554-0.00994 2.551 0.077785 3.3912 0.60028 1.5492 0.96335 2.2298 2.631 2.2064 5.4062-0.02392 2.831-0.59489 4.9509-2.2846 8.4826-1.6717 3.4938-4.103 6.1438-6.3889 6.9635-1.5582 0.55874-3.7446 0.98016-3.7446 0.72176z" fill="#f29400"/>
 				</g>
 			</g>
+		</a>
 
-		<g id="Lumieres" display="none">
-			<g id="lumiere-p21" transform="matrix(.00426977 0 0 -.00426977 417.994 338.487)">
-				<title>Deux ampoules : id#000000 et id#000001</title>
-			</g>
-			<g id="lumiere-p22" transform="matrix(.00426977 0 0 -.00426977 570.665 338.487)">
-				<title>Deux ampoules : id#000002 et id#000003</title>
-			</g>
-			<g id="lumiere-p23" transform="matrix(.00426977 0 0 -.00426977 721.774 338.487)">
-				<title>Deux ampoules : id#000004 et id#000005</title>
-			</g>
-			<g id="lumiere-32" transform="matrix(.00426977 0 0 -.00426977 553.175 574.723)">
-				<title>Deux ampoules : id#000006 et id#000007</title>
-			</g>
-			<g id="lumiere-33" transform="matrix(.00426977 0 0 -.00426977 689.568 574.723)">
-				<title>Deux ampoules : id#000008 et id#000009</title>
-			</g>
-			<g id="lumiere-34" transform="matrix(.00426977 0 0 -.00426977 825.961 574.723)">
-				<title>Deux ampoules : id#000010 et id#000011</title>
-			</g>
-			<g id="lumiere-35" transform="matrix(.00426977 0 0 -.00426977 962.354 574.723)">
-				<title>Deux ampoules : id#000012 et id#000013</title>
-			</g>
-			<g id="lumiere-bande-detente" transform="matrix(.00426977 0 0 -.00426977 1054.33 499.38)">
-				<title>Bande lumineuse : id#000014</title>
-			</g>
-			<g id="lumiere-bande-casiers" transform="matrix(.00426977 0 0 -.00426977 1119.33 421.321)">
-				<title>Bande lumineuse : id#000015</title>
-			</g>
-			<g id="lumiere-armoire" transform="matrix(.00426977 0 0 -.00426977 550.679 41.0778)">
-				<title>Deux ampoules : id#000016 et id#000017</title>
+		<g transform="translate(12.5724)" font-family="Calibri" font-size="16.5px" text-anchor="middle">
+			<text x="207.03966" y="119.21709" style="line-height:1.25" xml:space="preserve">
+				<tspan x="207.03966" y="119.21709" text-align="center">Cliquez sur une zone du FabLab pour obtenir des details</tspan>
+			</text>
+			<text x="207.41832" y="138.62762" style="line-height:1.25" xml:space="preserve">
+				<tspan x="207.41832" y="138.62762" text-align="center">Survolez les zones pour un resume.</tspan>
+			</text>
+		</g>
+
+		<g transform="translate(12.5724 -15.351)" font-family="Calibri" font-size="16.5px" text-anchor="middle">
+			<text x="207.31358" y="175.19936" style="line-height:1.25" xml:space="preserve">
+				<tspan x="207.31358" y="175.19936" text-align="center">Cliquez sur le bouton ci-dessous pourfaire apparaitre les.</tspan>
+			</text>
+			<text x="207.34178" y="195.76189" style="line-height:1.25" xml:space="preserve">
+				<tspan x="207.34178" y="195.76189" text-align="center">objets IoT sur plan. Survolez-les pour lire leurs IDs.</tspan>
+			</text>
+		</g>
+
+		<g transform="translate(-43.7741 111.581)">
+			<text x="220.17586" y="189.93161" font-family="Calibri" font-size="16.5px" text-anchor="middle" style="line-height:1.25" xml:space="preserve">
+				<tspan x="220.17586" y="189.93161" text-align="center">Interrupteur lumieres connectees</tspan>
+			</text>
+		</g>
+
+		<g onclick="toggleIoT();">
+			<title>Afficher/Cacher les objets IoT d'EirLab</title>
+			<text transform="translate(60.7368 -99.4481)" x="81.635208" y="327.55646" font-size="40px" style="line-height:1.25" xml:space="preserve">
+				<tspan style="filter:drop-shadow(2px 2px 2px rgb(0 0 0 / 0.3));" x="81.635208" y="327.55646" font-family="Calibri">IoT</tspan>
+			</text>
+			<g id="iot" transform="matrix(.00516083 0 0 -.00516083 196.787 215.16)">
+				<title>Cliquez pour afficher/cacher les objets IoT</title>
 			</g>
 		</g>
-	</svg>
 
-	<h1>Les differents lieux d'EirLab</h1>
-	<h2 id="permanents">Bureaux des permanents</h2>
-	<h2 id="espace-cours-1">Espace cours 1</h2>
-	<h2 id="espace-cours-2">Espace cours 2</h2>
-	<h2 id="ateliers">Ateliers</h2>
-	<h2 id="prototypage">Salle de prototypage</h2>
-	<h2 id="armoires-bureatique">Armoires pour la bureatique et materiel electronique</h2>
-	<h2 id="detente">Coin detente</h2>
-	<h2 id="robots">Robots</h2>
-	<h2 id="casiers">Casiers</h2>
+
+		<!-- switch on/off -->
+		<g transform="matrix(.698779 0 0 .698779 271.644 239.127)" onclick="toggleLights();">
+			<circle id="stateLamp" cx="67.4505" cy="82.8173" r="27.0826" fill="#fff" opacity=".6"/>
+			<path id="path7304" d="m63.9916 112.191c-4.36796-0.56267-8.99981-2.26597-12.6131-4.63833-2.34495-1.53959-6.86997-6.00417-8.29872-8.18786-3.51737-5.37592-4.99913-10.3836-4.97144-16.801 0.03699-8.57353 2.96755-15.4104 9.14151-21.3268 7.25508-6.9524 16.9981-9.65928 27.0066-7.50316 5.0699 1.09221 9.80271 3.65598 13.8696 7.5132 9.03845 8.57246 11.7371 21.6055 6.86556 33.1564-3.12529 7.41034-10.1325 13.8719-17.8435 16.454-3.8435 1.28703-9.25755 1.8358-13.1565 1.33355zm6.51893-5.28723c10.223-1.17146 18.7687-8.92778 21.0296-19.0871 0.573847-2.57858 0.573847-7.66258 0-10.2412-1.91976-8.62639-8.42275-15.6677-16.8507-18.2456-12.6919-3.88219-26.4413 3.56294-30.3848 16.453-1.28728 4.20772-1.27928 9.64339 0.02044 13.8922 2.58685 8.45642 9.84965 15.1489 18.2621 16.828 3.43249 0.68511 4.82677 0.75564 7.92341 0.4008zm-6.25434-5.66298c-5.01125-1.15637-8.67593-3.78968-11.2985-8.11864-1.74093-2.87373-2.19529-4.64829-2.19529-8.574 0-3.98521 0.497444-6.00634 2.17122-8.82172 1.5511-2.60903 2.52036-3.4814 3.86806-3.4814 1.37626 0 2.16375 0.520125 2.54737 1.6825 0.359976 1.09074 0.157658 1.67755-1.29174 3.74663-3.38523 4.83258-2.68139 11.4238 1.64147 15.3716 4.66692 4.26202 11.327 4.26202 15.9939 0 4.32285-3.94781 5.0267-10.539 1.64147-15.3716-1.4494-2.06908-1.65171-2.65589-1.29174-3.74663 0.383619-1.16238 1.17111-1.6825 2.54737-1.6825 0.925431 0 1.27052 0.155994 1.99475 0.901717 1.27093 1.30864 2.78311 3.98065 3.4577 6.10974 0.856601 2.70353 0.845481 7.97464-0.02215 10.4899-2.38568 6.91612-8.42597 11.4492-15.6629 11.7547-1.57612 0.0665-3.1056-0.0305-4.10104-0.26024zm1.65782-21.301-0.864071-0.77191v-6.74904c0-6.43781 0.02556-6.7835 0.554521-7.49632 1.1854-1.59745 3.49319-1.36556 4.41514 0.44365 0.421108 0.826376 0.463706 1.61678 0.396875 7.36402l-0.07487 6.43828-0.864071 0.771611c-1.1677 1.04275-2.39606 1.04265-3.56352-2.65e-4z" style="filter:drop-shadow(2px 2px 2px rgb(0 0 0 / 0.4));"/>
+		</g>
+	</g>
+
+	<g id="Lumieres" display="none" transform="translate(-604.652 494.601)">
+		<g id="iot" transform="matrix(.00426977 0 0 -.00426977 1020.4 -349.939)">
+			<title>Cliquez pour afficher/cacher les objets IoT</title>
+		</g>
+		<g id="lumiere-12" transform="matrix(.00426977 0 0 -.00426977 847.693 -71.6713)">
+			<title>Deux ampoules : id#000000 et id#000001</title>
+		</g>
+
+		<g id="lumiere-21" transform="matrix(.00426977 0 0 -.00426977 606.614 62.5951)">
+			<title>Deux ampoules : id#000002 et id#000003</title>
+		</g>
+
+		<g id="lumiere-22" transform="matrix(.00426977 0 0 -.00426977 846.887 79.9938)">
+			<title>Deux ampoules : id#000004 et id#000005</title>
+		</g>
+
+		<g id="lumiere-armoire" transform="matrix(.00426977 0 0 -.00426977 1144.66 56.7107)">
+			<title>Deux ampoules : id#00006 et id#00007</title>
+		</g>
+
+		<g id="lumiere-31" transform="matrix(.00426977 0 0 -.00426977 606.878 198.618)">
+			<title>Deux ampoules : id#000008 et id#000009</title>
+		</g>
+
+		<g id="lumiere-32" transform="matrix(.00426977 0 0 -.00426977 845.616 229.223)">
+			<title>Une ampoule : id#000010</title>
+		</g>
+
+		<g id="lumiere-41" transform="matrix(.00426977 0 0 -.00426977 608.456 349.937)">
+			<title>Deux ampoules : id#000011 et id#000012</title>
+		</g>
+
+		<g id="lumiere-51" transform="matrix(.00426977 0 0 -.00426977 606.814 506.249)">
+			<title>Deux ampoules : id#000013 et id#000014</title>
+		</g>
+
+		<g id="lumiere-bande-detente" transform="matrix(.00426977 0 0 -.00426977 675.775 610.242)">
+			<title>Bande lumineuse : id#000015</title>
+		</g>
+
+		<g id="lumiere-bande-casiers" transform="matrix(.00426977 0 0 -.00426977 757.409 623.687)">
+			<title>Bande lumineuse : id#000016</title>
+		</g>
+
+	</g>
+</svg>
 </body>
 
 <script type="text/javascript">
@@ -281,6 +339,9 @@
 		let svgNS = svg.namespaceURI;
 		let group = document.getElementById(id);
 		group.setAttribute("fill", "#000")
+		group.setAttribute("class", "shadow-lights");
+		if (id !== "iot")
+			group.setAttribute("onclick", "displayIDs('" + id + "');");
 		for (let path of svg_paths) {
 			let type = path[0];
 			let path_element = document.createElementNS(svgNS, type);
@@ -291,14 +352,11 @@
 			}
 			group.appendChild(path_element);
 		}
-		// let title = document.createElementNS(svgNS, "title");
-		// title.innerHTML = id;
-		// group.appendChild(title);
 	}
 
 	function generateLights() {
-		lights = ["iot", "lumiere-p21", "lumiere-p22", "lumiere-p23", "lumiere-32", "lumiere-33",
-		"lumiere-34", "lumiere-35", "lumiere-bande-detente", "lumiere-bande-casiers", "lumiere-armoire"];
+		lights = ["iot", "lumiere-12", "lumiere-21", "lumiere-22", "lumiere-31",
+			"lumiere-32", "lumiere-41", "lumiere-51","lumiere-bande-detente", "lumiere-bande-casiers", "lumiere-armoire"];
 		paths = [
 			["path",
 				["d", "m4875.2 4953.3c-56.7-54.4-56.7-59-56.7-487.7s0-433.3 56.7-487.7c34-36.3 81.7-56.7 124.8-56.7s90.7 20.4 124.8 56.7c56.7 54.4 56.7 59 56.7 487.7s0 433.3-56.7 487.7c-34 36.3-81.7 56.7-124.8 56.7s-90.7-20.4-124.8-56.7z"]],
@@ -338,10 +396,56 @@
 	let on = false;
 	let iotColorLamp = document.getElementById("iot").getElementsByClassName("light_color")[0];
 	iotColorLamp.style.fill = "#fff";
-	function toggleLights() {
-		on = !on; 
+	function toggleIoT() {
+		on = !on;
 		document.getElementById("Lumieres").style.display = on ? "block" : "none";
 		iotColorLamp.style.fill = on ? "#fdffb8" : "#fff";
 	}
 
+	function displayIDs(lampId) {
+		let lamp = document.getElementById(lampId);
+		alert(lamp.getElementsByTagName("title")[0].innerHTML);
+	}
+
+	let APIurl = "https://192.168.0.101/api/ck-wmda91RckYfk6CMIDdLO81VRLh2Z15IZYDPNM/"
+	let onLight = false;
+
+
+
+	async function put(url, data) {
+		return await fetch(url, {
+			"headers": {
+				"accept": "*/*",
+				"accept-language": "fr-FR,fr;q=0.9,en-GB;q=0.8,en;q=0.7,en-US;q=0.6"
+			},
+			"referrerPolicy": "no-referrer",
+			"body": JSON.stringify(data),
+			"method": "PUT",
+			"mode": "cors",
+			"credentials": "omit"
+		}).catch(err => {
+			alert(err + "\n Please visit http://localhost:8080/" );
+		})
+	}
+
+	async function onLights(){
+		await put(APIurl + "sensors/17/state", {'status':1});
+	}
+
+	async function offLights(){
+		await put(APIurl + "groups/1/action", {'on':false});
+	}
+
+	function toggleLights() {
+		if (onLight) {
+			offLights();
+			console.log("OFF")
+			document.getElementById("stateLamp").style.fill = "#fff";
+		} else {
+			onLights();
+			console.log("ON")
+			document.getElementById("stateLamp").style.fill = "#0f0";
+		}
+		onLight = !onLight;
+	}
 </script>
