@@ -10,8 +10,8 @@ Plan interactif d'Eirlab disponible sur [plan.eirlab.net](http://plan.eirlab.net
 - Les équipements IoT sont cachables et une fois révélés, permettent d'afficher leurs IDs.
 - Les bureaux des permanants renvoient vers leurs page EirLab.
 - La découpeuse laser, les imprimantes 3d et la CNC sont cliquables et redirigent vers leur article Eirlab.
+- Thème sombre
 
 ## TODO
-- Remplir les descriptions des zones d'Eirlab.
 - Mettre les réels ID des objets IoT. Actuellement les ID sont faux.
 - Rajouter les Télévisions Intelligentes et les Ultimakers dans les objets IoT.
