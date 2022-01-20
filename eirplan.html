@@ -95,7 +95,15 @@
 		.stroke-cours-2 { stroke: var(--col-cours-2-secondary); }
 		.fill-detente { fill: var(--col-detente-primary); }
 		.stroke-detente { stroke: var(--col-detente-secondary); }
+		.blink_me {
+			animation: blinker 1s linear infinite;
+		}
 
+		@keyframes blinker {
+			50% {
+				opacity: 0;
+			}
+		}
 	</style>
   </head>
   <body>
@@ -227,10 +235,12 @@
 		<g id="Espace-cours-1" transform="rotate(90,131.84,262.5)">
 			<title>Espace de cours n°1. Vous pouvez vous installer ici pour travailler quand il n'y a pas cours.</title>
 			<g class="meuble stroke-cours-1">
-				<rect transform="rotate(-90)" x="-264.62" y="693.801" width="29.12" height="54.6"/>
-				<rect transform="rotate(-90)" x="-344.632" y="693.801" width="29.12" height="54.6"/>
-				<rect transform="rotate(-90)" x="-344.632" y="751.576" width="29.12" height="54.6"/>
-				<rect transform="rotate(-90)" x="-264.62" y="751.576" width="29.12" height="54.6"/>
+				<rect x="700.502" y="201.879" width="29.12" height="54.6"/>
+				<rect x="700.502" y="259.653" width="29.12" height="54.6"/>
+				<rect x="700.645" y="317.694" width="29.12" height="54.6"/>
+				<rect x="770.525" y="201.135" width="29.12" height="54.6"/>
+				<rect x="770.525" y="258.91" width="29.12" height="54.6"/>
+				<rect x="770.667" y="316.951" width="29.12" height="54.6"/>
 			</g>
 			<text class="noms-lieux fill-cours-1 shadow-90" transform="rotate(-90)" x="-378.05414" y="757.65039" xml:space="preserve">
 				<tspan x="-378.05414" y="757.65039">Espace Cours 1</tspan>
@@ -243,6 +253,7 @@
 		<g class="meuble stroke-detente">
 			<rect x="878.56" y="244.251" width="100.598" height="22.1862"/>
 			<rect x="996.378" y="270.022" width="26.8725" height="66.8112"/>
+			<rect x="858.167" y="266.437" width="20.3927" height="51.6916"/>
 			<rect transform="rotate(-55.3093)" x="255.474" y="1002.89" width="22.9107" height="49.1102"/>
 			<rect x="894.293" y="360.222" width="65.9518" height="27.1124" ry="13.5562"/>
 			<circle cx="962.101" cy="296.279" r="15.9346"/>
